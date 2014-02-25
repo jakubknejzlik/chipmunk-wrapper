@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE88DEDC18BCC78800BD9090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDB18BCC78800BD9090 /* Foundation.framework */; };
+		EE88DEDE18BCC78800BD9090 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDD18BCC78800BD9090 /* CoreGraphics.framework */; };
+		EE88DEE018BCC78800BD9090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDF18BCC78800BD9090 /* UIKit.framework */; };
+		EE88DEE618BCC78800BD9090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE88DEE418BCC78800BD9090 /* InfoPlist.strings */; };
+		EE88DEE818BCC78800BD9090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DEE718BCC78800BD9090 /* main.m */; };
+		EE88DEEC18BCC78800BD9090 /* CWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DEEB18BCC78800BD9090 /* CWAppDelegate.m */; };
+		EE88DEEE18BCC78800BD9090 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE88DEED18BCC78800BD9090 /* Images.xcassets */; };
+		EE88DEF518BCC78800BD9090 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEF418BCC78800BD9090 /* XCTest.framework */; };
+		EE88DEF618BCC78800BD9090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDB18BCC78800BD9090 /* Foundation.framework */; };
+		EE88DEF718BCC78800BD9090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDF18BCC78800BD9090 /* UIKit.framework */; };
+		EE88DEFF18BCC78800BD9090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE88DEFD18BCC78800BD9090 /* InfoPlist.strings */; };
+		EE88DF0118BCC78800BD9090 /* ChipmunkWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF0018BCC78800BD9090 /* ChipmunkWrapperTests.m */; };
+		EE88DF5B18BCC85F00BD9090 /* CWTestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF5A18BCC85F00BD9090 /* CWTestScene.m */; };
+		EE88DF6018BCC8EC00BD9090 /* CWTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF5F18BCC8EC00BD9090 /* CWTestViewController.m */; };
+		EE88DF6218BCC90000BD9090 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DF6118BCC90000BD9090 /* SpriteKit.framework */; };
+		EE88DF6418BCCA1900BD9090 /* sprite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE88DF6318BCCA1900BD9090 /* sprite@2x.png */; };
+		EE88DF7518BCCA7C00BD9090 /* libChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DF7418BCCA7C00BD9090 /* libChipmunk-iPhone.a */; };
+		EE88DF8D18BCCEA900BD9090 /* CMSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF8418BCCEA900BD9090 /* CMSpace.m */; };
+		EE88DF8E18BCCEA900BD9090 /* CMBody.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF8618BCCEA900BD9090 /* CMBody.m */; };
+		EE88DF8F18BCCEA900BD9090 /* CMBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF8818BCCEA900BD9090 /* CMBaseObject.m */; };
+		EE88DF9018BCCEA900BD9090 /* CMObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF8A18BCCEA900BD9090 /* CMObject.m */; };
+		EE88DF9118BCCEA900BD9090 /* CMArbiter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF8C18BCCEA900BD9090 /* CMArbiter.m */; };
+		EE88DF9818BCCEC500BD9090 /* CMShape.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF9318BCCEC500BD9090 /* CMShape.m */; };
+		EE88DF9918BCCEC500BD9090 /* CMCircleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF9518BCCEC500BD9090 /* CMCircleShape.m */; };
+		EE88DF9A18BCCEC500BD9090 /* CMBoxShape.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF9718BCCEC500BD9090 /* CMBoxShape.m */; };
+		EE88DFB118BCCECC00BD9090 /* CMConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF9C18BCCECC00BD9090 /* CMConstraint.m */; };
+		EE88DFB218BCCECC00BD9090 /* CMPinJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF9E18BCCECC00BD9090 /* CMPinJoint.m */; };
+		EE88DFB318BCCECC00BD9090 /* CMPivotJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFA018BCCECC00BD9090 /* CMPivotJoint.m */; };
+		EE88DFB418BCCECC00BD9090 /* CMSlideJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFA218BCCECC00BD9090 /* CMSlideJoint.m */; };
+		EE88DFB518BCCECC00BD9090 /* CMGearJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFA418BCCECC00BD9090 /* CMGearJoint.m */; };
+		EE88DFB618BCCECC00BD9090 /* CMGrooveJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFA618BCCECC00BD9090 /* CMGrooveJoint.m */; };
+		EE88DFB718BCCECC00BD9090 /* CMRatchetJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFA818BCCECC00BD9090 /* CMRatchetJoint.m */; };
+		EE88DFB818BCCECC00BD9090 /* CMRotaryLimitJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFAA18BCCECC00BD9090 /* CMRotaryLimitJoint.m */; };
+		EE88DFB918BCCECC00BD9090 /* CMDampedSpring.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFAC18BCCECC00BD9090 /* CMDampedSpring.m */; };
+		EE88DFBA18BCCECC00BD9090 /* CMDampedRotarySpring.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFAE18BCCECC00BD9090 /* CMDampedRotarySpring.m */; };
+		EE88DFBB18BCCECC00BD9090 /* CMSimpleMotor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFB018BCCECC00BD9090 /* CMSimpleMotor.m */; };
+		EE88DFC218BCCED300BD9090 /* CMSegmentQueryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFBD18BCCED300BD9090 /* CMSegmentQueryInfo.m */; };
+		EE88DFC318BCCED300BD9090 /* CMShapeQueryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFBF18BCCED300BD9090 /* CMShapeQueryInfo.m */; };
+		EE88DFC418BCCED300BD9090 /* CMNearestPointQueryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFC118BCCED300BD9090 /* CMNearestPointQueryInfo.m */; };
+		EE88DFC718BCCEE900BD9090 /* CMWrapper+SpriteKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFC618BCCEE900BD9090 /* CMWrapper+SpriteKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE88DEF818BCC78800BD9090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE88DED018BCC78800BD9090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE88DED718BCC78800BD9090;
+			remoteInfo = ChipmunkWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE88DED818BCC78800BD9090 /* ChipmunkWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChipmunkWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE88DEDB18BCC78800BD9090 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE88DEDD18BCC78800BD9090 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE88DEDF18BCC78800BD9090 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE88DEE318BCC78800BD9090 /* ChipmunkWrapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChipmunkWrapper-Info.plist"; sourceTree = "<group>"; };
+		EE88DEE518BCC78800BD9090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE88DEE718BCC78800BD9090 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE88DEE918BCC78800BD9090 /* ChipmunkWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChipmunkWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		EE88DEEA18BCC78800BD9090 /* CWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWAppDelegate.h; sourceTree = "<group>"; };
+		EE88DEEB18BCC78800BD9090 /* CWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWAppDelegate.m; sourceTree = "<group>"; };
+		EE88DEED18BCC78800BD9090 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE88DEF318BCC78800BD9090 /* ChipmunkWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipmunkWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE88DEF418BCC78800BD9090 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE88DEFC18BCC78800BD9090 /* ChipmunkWrapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChipmunkWrapperTests-Info.plist"; sourceTree = "<group>"; };
+		EE88DEFE18BCC78800BD9090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE88DF0018BCC78800BD9090 /* ChipmunkWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChipmunkWrapperTests.m; sourceTree = "<group>"; };
+		EE88DF5918BCC85F00BD9090 /* CWTestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTestScene.h; sourceTree = "<group>"; };
+		EE88DF5A18BCC85F00BD9090 /* CWTestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTestScene.m; sourceTree = "<group>"; };
+		EE88DF5C18BCC87A00BD9090 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		EE88DF5E18BCC8EC00BD9090 /* CWTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTestViewController.h; sourceTree = "<group>"; };
+		EE88DF5F18BCC8EC00BD9090 /* CWTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTestViewController.m; sourceTree = "<group>"; };
+		EE88DF6118BCC90000BD9090 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		EE88DF6318BCCA1900BD9090 /* sprite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sprite@2x.png"; sourceTree = "<group>"; };
+		EE88DF6718BCCA7C00BD9090 /* chipmunk_ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_ffi.h; sourceTree = "<group>"; };
+		EE88DF6818BCCA7C00BD9090 /* chipmunk_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_private.h; sourceTree = "<group>"; };
+		EE88DF6918BCCA7C00BD9090 /* chipmunk_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_types.h; sourceTree = "<group>"; };
+		EE88DF6A18BCCA7C00BD9090 /* chipmunk_unsafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_unsafe.h; sourceTree = "<group>"; };
+		EE88DF6B18BCCA7C00BD9090 /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
+		EE88DF6C18BCCA7C00BD9090 /* cpArbiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpArbiter.h; sourceTree = "<group>"; };
+		EE88DF6D18BCCA7C00BD9090 /* cpBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBB.h; sourceTree = "<group>"; };
+		EE88DF6E18BCCA7C00BD9090 /* cpBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBody.h; sourceTree = "<group>"; };
+		EE88DF6F18BCCA7C00BD9090 /* cpPolyShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyShape.h; sourceTree = "<group>"; };
+		EE88DF7018BCCA7C00BD9090 /* cpShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpShape.h; sourceTree = "<group>"; };
+		EE88DF7118BCCA7C00BD9090 /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
+		EE88DF7218BCCA7C00BD9090 /* cpSpatialIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpatialIndex.h; sourceTree = "<group>"; };
+		EE88DF7318BCCA7C00BD9090 /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
+		EE88DF7418BCCA7C00BD9090 /* libChipmunk-iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libChipmunk-iPhone.a"; sourceTree = "<group>"; };
+		EE88DF7718BCCA8B00BD9090 /* cpConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpConstraint.h; sourceTree = "<group>"; };
+		EE88DF7818BCCA8B00BD9090 /* cpDampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedRotarySpring.h; sourceTree = "<group>"; };
+		EE88DF7918BCCA8B00BD9090 /* cpDampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedSpring.h; sourceTree = "<group>"; };
+		EE88DF7A18BCCA8B00BD9090 /* cpGearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGearJoint.h; sourceTree = "<group>"; };
+		EE88DF7B18BCCA8B00BD9090 /* cpGrooveJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGrooveJoint.h; sourceTree = "<group>"; };
+		EE88DF7C18BCCA8B00BD9090 /* cpPinJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPinJoint.h; sourceTree = "<group>"; };
+		EE88DF7D18BCCA8B00BD9090 /* cpPivotJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPivotJoint.h; sourceTree = "<group>"; };
+		EE88DF7E18BCCA8B00BD9090 /* cpRatchetJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRatchetJoint.h; sourceTree = "<group>"; };
+		EE88DF7F18BCCA8B00BD9090 /* cpRotaryLimitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRotaryLimitJoint.h; sourceTree = "<group>"; };
+		EE88DF8018BCCA8B00BD9090 /* cpSimpleMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSimpleMotor.h; sourceTree = "<group>"; };
+		EE88DF8118BCCA8B00BD9090 /* cpSlideJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSlideJoint.h; sourceTree = "<group>"; };
+		EE88DF8218BCCA8B00BD9090 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		EE88DF8318BCCEA900BD9090 /* CMSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSpace.h; sourceTree = "<group>"; };
+		EE88DF8418BCCEA900BD9090 /* CMSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSpace.m; sourceTree = "<group>"; };
+		EE88DF8518BCCEA900BD9090 /* CMBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBody.h; sourceTree = "<group>"; };
+		EE88DF8618BCCEA900BD9090 /* CMBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBody.m; sourceTree = "<group>"; };
+		EE88DF8718BCCEA900BD9090 /* CMBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBaseObject.h; sourceTree = "<group>"; };
+		EE88DF8818BCCEA900BD9090 /* CMBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBaseObject.m; sourceTree = "<group>"; };
+		EE88DF8918BCCEA900BD9090 /* CMObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMObject.h; sourceTree = "<group>"; };
+		EE88DF8A18BCCEA900BD9090 /* CMObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMObject.m; sourceTree = "<group>"; };
+		EE88DF8B18BCCEA900BD9090 /* CMArbiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMArbiter.h; sourceTree = "<group>"; };
+		EE88DF8C18BCCEA900BD9090 /* CMArbiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMArbiter.m; sourceTree = "<group>"; };
+		EE88DF9218BCCEC500BD9090 /* CMShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShape.h; sourceTree = "<group>"; };
+		EE88DF9318BCCEC500BD9090 /* CMShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMShape.m; sourceTree = "<group>"; };
+		EE88DF9418BCCEC500BD9090 /* CMCircleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCircleShape.h; sourceTree = "<group>"; };
+		EE88DF9518BCCEC500BD9090 /* CMCircleShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCircleShape.m; sourceTree = "<group>"; };
+		EE88DF9618BCCEC500BD9090 /* CMBoxShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBoxShape.h; sourceTree = "<group>"; };
+		EE88DF9718BCCEC500BD9090 /* CMBoxShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBoxShape.m; sourceTree = "<group>"; };
+		EE88DF9B18BCCECC00BD9090 /* CMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMConstraint.h; sourceTree = "<group>"; };
+		EE88DF9C18BCCECC00BD9090 /* CMConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMConstraint.m; sourceTree = "<group>"; };
+		EE88DF9D18BCCECC00BD9090 /* CMPinJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPinJoint.h; sourceTree = "<group>"; };
+		EE88DF9E18BCCECC00BD9090 /* CMPinJoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPinJoint.m; sourceTree = "<group>"; };
+		EE88DF9F18BCCECC00BD9090 /* CMPivotJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPivotJoint.h; sourceTree = "<group>"; };
+		EE88DFA018BCCECC00BD9090 /* CMPivotJoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPivotJoint.m; sourceTree = "<group>"; };
+		EE88DFA118BCCECC00BD9090 /* CMSlideJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSlideJoint.h; sourceTree = "<group>"; };
+		EE88DFA218BCCECC00BD9090 /* CMSlideJoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSlideJoint.m; sourceTree = "<group>"; };
+		EE88DFA318BCCECC00BD9090 /* CMGearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMGearJoint.h; sourceTree = "<group>"; };
+		EE88DFA418BCCECC00BD9090 /* CMGearJoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMGearJoint.m; sourceTree = "<group>"; };
+		EE88DFA518BCCECC00BD9090 /* CMGrooveJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMGrooveJoint.h; sourceTree = "<group>"; };
+		EE88DFA618BCCECC00BD9090 /* CMGrooveJoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMGrooveJoint.m; sourceTree = "<group>"; };
+		EE88DFA718BCCECC00BD9090 /* CMRatchetJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRatchetJoint.h; sourceTree = "<group>"; };
+		EE88DFA818BCCECC00BD9090 /* CMRatchetJoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMRatchetJoint.m; sourceTree = "<group>"; };
+		EE88DFA918BCCECC00BD9090 /* CMRotaryLimitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRotaryLimitJoint.h; sourceTree = "<group>"; };
+		EE88DFAA18BCCECC00BD9090 /* CMRotaryLimitJoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMRotaryLimitJoint.m; sourceTree = "<group>"; };
+		EE88DFAB18BCCECC00BD9090 /* CMDampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDampedSpring.h; sourceTree = "<group>"; };
+		EE88DFAC18BCCECC00BD9090 /* CMDampedSpring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDampedSpring.m; sourceTree = "<group>"; };
+		EE88DFAD18BCCECC00BD9090 /* CMDampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDampedRotarySpring.h; sourceTree = "<group>"; };
+		EE88DFAE18BCCECC00BD9090 /* CMDampedRotarySpring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDampedRotarySpring.m; sourceTree = "<group>"; };
+		EE88DFAF18BCCECC00BD9090 /* CMSimpleMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSimpleMotor.h; sourceTree = "<group>"; };
+		EE88DFB018BCCECC00BD9090 /* CMSimpleMotor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSimpleMotor.m; sourceTree = "<group>"; };
+		EE88DFBC18BCCED300BD9090 /* CMSegmentQueryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSegmentQueryInfo.h; sourceTree = "<group>"; };
+		EE88DFBD18BCCED300BD9090 /* CMSegmentQueryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSegmentQueryInfo.m; sourceTree = "<group>"; };
+		EE88DFBE18BCCED300BD9090 /* CMShapeQueryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShapeQueryInfo.h; sourceTree = "<group>"; };
+		EE88DFBF18BCCED300BD9090 /* CMShapeQueryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMShapeQueryInfo.m; sourceTree = "<group>"; };
+		EE88DFC018BCCED300BD9090 /* CMNearestPointQueryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNearestPointQueryInfo.h; sourceTree = "<group>"; };
+		EE88DFC118BCCED300BD9090 /* CMNearestPointQueryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNearestPointQueryInfo.m; sourceTree = "<group>"; };
+		EE88DFC518BCCEE900BD9090 /* CMWrapper+SpriteKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMWrapper+SpriteKit.h"; sourceTree = "<group>"; };
+		EE88DFC618BCCEE900BD9090 /* CMWrapper+SpriteKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMWrapper+SpriteKit.m"; sourceTree = "<group>"; };
+		EE88DFC818BCCEF300BD9090 /* CMWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMWrapper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE88DED518BCC78800BD9090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE88DF6218BCC90000BD9090 /* SpriteKit.framework in Frameworks */,
+				EE88DEDE18BCC78800BD9090 /* CoreGraphics.framework in Frameworks */,
+				EE88DEE018BCC78800BD9090 /* UIKit.framework in Frameworks */,
+				EE88DEDC18BCC78800BD9090 /* Foundation.framework in Frameworks */,
+				EE88DF7518BCCA7C00BD9090 /* libChipmunk-iPhone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE88DEF018BCC78800BD9090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE88DEF518BCC78800BD9090 /* XCTest.framework in Frameworks */,
+				EE88DEF718BCC78800BD9090 /* UIKit.framework in Frameworks */,
+				EE88DEF618BCC78800BD9090 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE88DECF18BCC78800BD9090 = {
+			isa = PBXGroup;
+			children = (
+				EE88DEE118BCC78800BD9090 /* ChipmunkWrapper */,
+				EE88DEFA18BCC78800BD9090 /* ChipmunkWrapperTests */,
+				EE88DEDA18BCC78800BD9090 /* Frameworks */,
+				EE88DED918BCC78800BD9090 /* Products */,
+				EE88DF5C18BCC87A00BD9090 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		EE88DED918BCC78800BD9090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DED818BCC78800BD9090 /* ChipmunkWrapper.app */,
+				EE88DEF318BCC78800BD9090 /* ChipmunkWrapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE88DEDA18BCC78800BD9090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF6618BCCA5F00BD9090 /* Chipmunk */,
+				EE88DF6118BCC90000BD9090 /* SpriteKit.framework */,
+				EE88DEDB18BCC78800BD9090 /* Foundation.framework */,
+				EE88DEDD18BCC78800BD9090 /* CoreGraphics.framework */,
+				EE88DEDF18BCC78800BD9090 /* UIKit.framework */,
+				EE88DEF418BCC78800BD9090 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE88DEE118BCC78800BD9090 /* ChipmunkWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF6518BCCA2100BD9090 /* Demo */,
+				EE88DF0A18BCC7C000BD9090 /* lib */,
+				EE88DEEA18BCC78800BD9090 /* CWAppDelegate.h */,
+				EE88DEEB18BCC78800BD9090 /* CWAppDelegate.m */,
+				EE88DEED18BCC78800BD9090 /* Images.xcassets */,
+				EE88DEE218BCC78800BD9090 /* Supporting Files */,
+			);
+			path = ChipmunkWrapper;
+			sourceTree = "<group>";
+		};
+		EE88DEE218BCC78800BD9090 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DEE318BCC78800BD9090 /* ChipmunkWrapper-Info.plist */,
+				EE88DEE418BCC78800BD9090 /* InfoPlist.strings */,
+				EE88DEE718BCC78800BD9090 /* main.m */,
+				EE88DEE918BCC78800BD9090 /* ChipmunkWrapper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE88DEFA18BCC78800BD9090 /* ChipmunkWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF0018BCC78800BD9090 /* ChipmunkWrapperTests.m */,
+				EE88DEFB18BCC78800BD9090 /* Supporting Files */,
+			);
+			path = ChipmunkWrapperTests;
+			sourceTree = "<group>";
+		};
+		EE88DEFB18BCC78800BD9090 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DEFC18BCC78800BD9090 /* ChipmunkWrapperTests-Info.plist */,
+				EE88DEFD18BCC78800BD9090 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE88DF0A18BCC7C000BD9090 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF1018BCC7E500BD9090 /* Classes */,
+				EE88DF0B18BCC7D400BD9090 /* Categories */,
+				EE88DFC818BCCEF300BD9090 /* CMWrapper.h */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		EE88DF0B18BCC7D400BD9090 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF0C18BCC7D700BD9090 /* Spritekit */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EE88DF0C18BCC7D700BD9090 /* Spritekit */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DFC518BCCEE900BD9090 /* CMWrapper+SpriteKit.h */,
+				EE88DFC618BCCEE900BD9090 /* CMWrapper+SpriteKit.m */,
+			);
+			name = Spritekit;
+			sourceTree = "<group>";
+		};
+		EE88DF1018BCC7E500BD9090 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF1418BCC7FE00BD9090 /* Shape */,
+				EE88DF1318BCC7EF00BD9090 /* Constraint */,
+				EE88DF1118BCC7E900BD9090 /* Queries */,
+				EE88DF8318BCCEA900BD9090 /* CMSpace.h */,
+				EE88DF8418BCCEA900BD9090 /* CMSpace.m */,
+				EE88DF8518BCCEA900BD9090 /* CMBody.h */,
+				EE88DF8618BCCEA900BD9090 /* CMBody.m */,
+				EE88DF8718BCCEA900BD9090 /* CMBaseObject.h */,
+				EE88DF8818BCCEA900BD9090 /* CMBaseObject.m */,
+				EE88DF8918BCCEA900BD9090 /* CMObject.h */,
+				EE88DF8A18BCCEA900BD9090 /* CMObject.m */,
+				EE88DF8B18BCCEA900BD9090 /* CMArbiter.h */,
+				EE88DF8C18BCCEA900BD9090 /* CMArbiter.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EE88DF1118BCC7E900BD9090 /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DFBC18BCCED300BD9090 /* CMSegmentQueryInfo.h */,
+				EE88DFBD18BCCED300BD9090 /* CMSegmentQueryInfo.m */,
+				EE88DFBE18BCCED300BD9090 /* CMShapeQueryInfo.h */,
+				EE88DFBF18BCCED300BD9090 /* CMShapeQueryInfo.m */,
+				EE88DFC018BCCED300BD9090 /* CMNearestPointQueryInfo.h */,
+				EE88DFC118BCCED300BD9090 /* CMNearestPointQueryInfo.m */,
+			);
+			name = Queries;
+			sourceTree = "<group>";
+		};
+		EE88DF1318BCC7EF00BD9090 /* Constraint */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF9B18BCCECC00BD9090 /* CMConstraint.h */,
+				EE88DF9C18BCCECC00BD9090 /* CMConstraint.m */,
+				EE88DF9D18BCCECC00BD9090 /* CMPinJoint.h */,
+				EE88DF9E18BCCECC00BD9090 /* CMPinJoint.m */,
+				EE88DF9F18BCCECC00BD9090 /* CMPivotJoint.h */,
+				EE88DFA018BCCECC00BD9090 /* CMPivotJoint.m */,
+				EE88DFA118BCCECC00BD9090 /* CMSlideJoint.h */,
+				EE88DFA218BCCECC00BD9090 /* CMSlideJoint.m */,
+				EE88DFA318BCCECC00BD9090 /* CMGearJoint.h */,
+				EE88DFA418BCCECC00BD9090 /* CMGearJoint.m */,
+				EE88DFA518BCCECC00BD9090 /* CMGrooveJoint.h */,
+				EE88DFA618BCCECC00BD9090 /* CMGrooveJoint.m */,
+				EE88DFA718BCCECC00BD9090 /* CMRatchetJoint.h */,
+				EE88DFA818BCCECC00BD9090 /* CMRatchetJoint.m */,
+				EE88DFA918BCCECC00BD9090 /* CMRotaryLimitJoint.h */,
+				EE88DFAA18BCCECC00BD9090 /* CMRotaryLimitJoint.m */,
+				EE88DFAB18BCCECC00BD9090 /* CMDampedSpring.h */,
+				EE88DFAC18BCCECC00BD9090 /* CMDampedSpring.m */,
+				EE88DFAD18BCCECC00BD9090 /* CMDampedRotarySpring.h */,
+				EE88DFAE18BCCECC00BD9090 /* CMDampedRotarySpring.m */,
+				EE88DFAF18BCCECC00BD9090 /* CMSimpleMotor.h */,
+				EE88DFB018BCCECC00BD9090 /* CMSimpleMotor.m */,
+			);
+			name = Constraint;
+			sourceTree = "<group>";
+		};
+		EE88DF1418BCC7FE00BD9090 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF9218BCCEC500BD9090 /* CMShape.h */,
+				EE88DF9318BCCEC500BD9090 /* CMShape.m */,
+				EE88DF9418BCCEC500BD9090 /* CMCircleShape.h */,
+				EE88DF9518BCCEC500BD9090 /* CMCircleShape.m */,
+				EE88DF9618BCCEC500BD9090 /* CMBoxShape.h */,
+				EE88DF9718BCCEC500BD9090 /* CMBoxShape.m */,
+			);
+			name = Shape;
+			sourceTree = "<group>";
+		};
+		EE88DF6518BCCA2100BD9090 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF5918BCC85F00BD9090 /* CWTestScene.h */,
+				EE88DF5A18BCC85F00BD9090 /* CWTestScene.m */,
+				EE88DF5E18BCC8EC00BD9090 /* CWTestViewController.h */,
+				EE88DF5F18BCC8EC00BD9090 /* CWTestViewController.m */,
+				EE88DF6318BCCA1900BD9090 /* sprite@2x.png */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		EE88DF6618BCCA5F00BD9090 /* Chipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF7618BCCA7E00BD9090 /* contraints */,
+				EE88DF6718BCCA7C00BD9090 /* chipmunk_ffi.h */,
+				EE88DF6818BCCA7C00BD9090 /* chipmunk_private.h */,
+				EE88DF6918BCCA7C00BD9090 /* chipmunk_types.h */,
+				EE88DF6A18BCCA7C00BD9090 /* chipmunk_unsafe.h */,
+				EE88DF6B18BCCA7C00BD9090 /* chipmunk.h */,
+				EE88DF6C18BCCA7C00BD9090 /* cpArbiter.h */,
+				EE88DF6D18BCCA7C00BD9090 /* cpBB.h */,
+				EE88DF6E18BCCA7C00BD9090 /* cpBody.h */,
+				EE88DF6F18BCCA7C00BD9090 /* cpPolyShape.h */,
+				EE88DF7018BCCA7C00BD9090 /* cpShape.h */,
+				EE88DF7118BCCA7C00BD9090 /* cpSpace.h */,
+				EE88DF7218BCCA7C00BD9090 /* cpSpatialIndex.h */,
+				EE88DF7318BCCA7C00BD9090 /* cpVect.h */,
+				EE88DF7418BCCA7C00BD9090 /* libChipmunk-iPhone.a */,
+			);
+			name = Chipmunk;
+			sourceTree = "<group>";
+		};
+		EE88DF7618BCCA7E00BD9090 /* contraints */ = {
+			isa = PBXGroup;
+			children = (
+				EE88DF7718BCCA8B00BD9090 /* cpConstraint.h */,
+				EE88DF7818BCCA8B00BD9090 /* cpDampedRotarySpring.h */,
+				EE88DF7918BCCA8B00BD9090 /* cpDampedSpring.h */,
+				EE88DF7A18BCCA8B00BD9090 /* cpGearJoint.h */,
+				EE88DF7B18BCCA8B00BD9090 /* cpGrooveJoint.h */,
+				EE88DF7C18BCCA8B00BD9090 /* cpPinJoint.h */,
+				EE88DF7D18BCCA8B00BD9090 /* cpPivotJoint.h */,
+				EE88DF7E18BCCA8B00BD9090 /* cpRatchetJoint.h */,
+				EE88DF7F18BCCA8B00BD9090 /* cpRotaryLimitJoint.h */,
+				EE88DF8018BCCA8B00BD9090 /* cpSimpleMotor.h */,
+				EE88DF8118BCCA8B00BD9090 /* cpSlideJoint.h */,
+				EE88DF8218BCCA8B00BD9090 /* util.h */,
+			);
+			name = contraints;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE88DED718BCC78800BD9090 /* ChipmunkWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE88DF0418BCC78800BD9090 /* Build configuration list for PBXNativeTarget "ChipmunkWrapper" */;
+			buildPhases = (
+				EE88DED418BCC78800BD9090 /* Sources */,
+				EE88DED518BCC78800BD9090 /* Frameworks */,
+				EE88DED618BCC78800BD9090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChipmunkWrapper;
+			productName = ChipmunkWrapper;
+			productReference = EE88DED818BCC78800BD9090 /* ChipmunkWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE88DEF218BCC78800BD9090 /* ChipmunkWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE88DF0718BCC78800BD9090 /* Build configuration list for PBXNativeTarget "ChipmunkWrapperTests" */;
+			buildPhases = (
+				EE88DEEF18BCC78800BD9090 /* Sources */,
+				EE88DEF018BCC78800BD9090 /* Frameworks */,
+				EE88DEF118BCC78800BD9090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE88DEF918BCC78800BD9090 /* PBXTargetDependency */,
+			);
+			name = ChipmunkWrapperTests;
+			productName = ChipmunkWrapperTests;
+			productReference = EE88DEF318BCC78800BD9090 /* ChipmunkWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE88DED018BCC78800BD9090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jakub Knejzlik";
+				TargetAttributes = {
+					EE88DEF218BCC78800BD9090 = {
+						TestTargetID = EE88DED718BCC78800BD9090;
+					};
+				};
+			};
+			buildConfigurationList = EE88DED318BCC78800BD9090 /* Build configuration list for PBXProject "ChipmunkWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE88DECF18BCC78800BD9090;
+			productRefGroup = EE88DED918BCC78800BD9090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE88DED718BCC78800BD9090 /* ChipmunkWrapper */,
+				EE88DEF218BCC78800BD9090 /* ChipmunkWrapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE88DED618BCC78800BD9090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE88DEE618BCC78800BD9090 /* InfoPlist.strings in Resources */,
+				EE88DEEE18BCC78800BD9090 /* Images.xcassets in Resources */,
+				EE88DF6418BCCA1900BD9090 /* sprite@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE88DEF118BCC78800BD9090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE88DEFF18BCC78800BD9090 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE88DED418BCC78800BD9090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE88DF9818BCCEC500BD9090 /* CMShape.m in Sources */,
+				EE88DF9018BCCEA900BD9090 /* CMObject.m in Sources */,
+				EE88DFB718BCCECC00BD9090 /* CMRatchetJoint.m in Sources */,
+				EE88DF6018BCC8EC00BD9090 /* CWTestViewController.m in Sources */,
+				EE88DFBB18BCCECC00BD9090 /* CMSimpleMotor.m in Sources */,
+				EE88DFB118BCCECC00BD9090 /* CMConstraint.m in Sources */,
+				EE88DF8F18BCCEA900BD9090 /* CMBaseObject.m in Sources */,
+				EE88DF9A18BCCEC500BD9090 /* CMBoxShape.m in Sources */,
+				EE88DFB618BCCECC00BD9090 /* CMGrooveJoint.m in Sources */,
+				EE88DFC718BCCEE900BD9090 /* CMWrapper+SpriteKit.m in Sources */,
+				EE88DF8D18BCCEA900BD9090 /* CMSpace.m in Sources */,
+				EE88DEEC18BCC78800BD9090 /* CWAppDelegate.m in Sources */,
+				EE88DEE818BCC78800BD9090 /* main.m in Sources */,
+				EE88DFB418BCCECC00BD9090 /* CMSlideJoint.m in Sources */,
+				EE88DFBA18BCCECC00BD9090 /* CMDampedRotarySpring.m in Sources */,
+				EE88DFB518BCCECC00BD9090 /* CMGearJoint.m in Sources */,
+				EE88DFB218BCCECC00BD9090 /* CMPinJoint.m in Sources */,
+				EE88DFC218BCCED300BD9090 /* CMSegmentQueryInfo.m in Sources */,
+				EE88DF8E18BCCEA900BD9090 /* CMBody.m in Sources */,
+				EE88DF9918BCCEC500BD9090 /* CMCircleShape.m in Sources */,
+				EE88DFC318BCCED300BD9090 /* CMShapeQueryInfo.m in Sources */,
+				EE88DFB918BCCECC00BD9090 /* CMDampedSpring.m in Sources */,
+				EE88DF9118BCCEA900BD9090 /* CMArbiter.m in Sources */,
+				EE88DFB818BCCECC00BD9090 /* CMRotaryLimitJoint.m in Sources */,
+				EE88DF5B18BCC85F00BD9090 /* CWTestScene.m in Sources */,
+				EE88DFB318BCCECC00BD9090 /* CMPivotJoint.m in Sources */,
+				EE88DFC418BCCED300BD9090 /* CMNearestPointQueryInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE88DEEF18BCC78800BD9090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE88DF0118BCC78800BD9090 /* ChipmunkWrapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE88DEF918BCC78800BD9090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE88DED718BCC78800BD9090 /* ChipmunkWrapper */;
+			targetProxy = EE88DEF818BCC78800BD9090 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE88DEE418BCC78800BD9090 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE88DEE518BCC78800BD9090 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE88DEFD18BCC78800BD9090 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE88DEFE18BCC78800BD9090 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE88DF0218BCC78800BD9090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE88DF0318BCC78800BD9090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE88DF0518BCC78800BD9090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChipmunkWrapper/ChipmunkWrapper-Prefix.pch";
+				INFOPLIST_FILE = "ChipmunkWrapper/ChipmunkWrapper-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jakubknejzlik/chipmunk-wrapper",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE88DF0618BCC78800BD9090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChipmunkWrapper/ChipmunkWrapper-Prefix.pch";
+				INFOPLIST_FILE = "ChipmunkWrapper/ChipmunkWrapper-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jakubknejzlik/chipmunk-wrapper",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE88DF0818BCC78800BD9090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChipmunkWrapper.app/ChipmunkWrapper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChipmunkWrapper/ChipmunkWrapper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChipmunkWrapperTests/ChipmunkWrapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE88DF0918BCC78800BD9090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChipmunkWrapper.app/ChipmunkWrapper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChipmunkWrapper/ChipmunkWrapper-Prefix.pch";
+				INFOPLIST_FILE = "ChipmunkWrapperTests/ChipmunkWrapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE88DED318BCC78800BD9090 /* Build configuration list for PBXProject "ChipmunkWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE88DF0218BCC78800BD9090 /* Debug */,
+				EE88DF0318BCC78800BD9090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE88DF0418BCC78800BD9090 /* Build configuration list for PBXNativeTarget "ChipmunkWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE88DF0518BCC78800BD9090 /* Debug */,
+				EE88DF0618BCC78800BD9090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE88DF0718BCC78800BD9090 /* Build configuration list for PBXNativeTarget "ChipmunkWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE88DF0818BCC78800BD9090 /* Debug */,
+				EE88DF0918BCC78800BD9090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE88DED018BCC78800BD9090 /* Project object */;
+}

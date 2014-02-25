@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7724C27C-1452-49E5-A153-1CBF993160D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChipmunkWrapper</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AA8DE29B-C9D0-4DC9-AB45-D9EADC34F015</key>
+		<string>https://github.com/jakubknejzlik/chipmunk-wrapper</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChipmunkWrapper.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AA8DE29B-C9D0-4DC9-AB45-D9EADC34F015</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jakubknejzlik/chipmunk-wrapper</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AA8DE29B-C9D0-4DC9-AB45-D9EADC34F015</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA8DE29B-C9D0-4DC9-AB45-D9EADC34F015</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chipmunk-wrapper</string>
+		</dict>
+	</array>
+</dict>
+</plist>
