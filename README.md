@@ -8,6 +8,7 @@ TODO
 ====
 
 - full README :)
+- full support of NSCoding protocol
 - code documentation
 - cocos2d integration
 

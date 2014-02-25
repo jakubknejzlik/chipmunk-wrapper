@@ -10,9 +10,6 @@
 		EE88DEDC18BCC78800BD9090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDB18BCC78800BD9090 /* Foundation.framework */; };
 		EE88DEDE18BCC78800BD9090 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDD18BCC78800BD9090 /* CoreGraphics.framework */; };
 		EE88DEE018BCC78800BD9090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDF18BCC78800BD9090 /* UIKit.framework */; };
-		EE88DEE618BCC78800BD9090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE88DEE418BCC78800BD9090 /* InfoPlist.strings */; };
-		EE88DEE818BCC78800BD9090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DEE718BCC78800BD9090 /* main.m */; };
-		EE88DEEC18BCC78800BD9090 /* CWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DEEB18BCC78800BD9090 /* CWAppDelegate.m */; };
 		EE88DEEE18BCC78800BD9090 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE88DEED18BCC78800BD9090 /* Images.xcassets */; };
 		EE88DEF518BCC78800BD9090 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEF418BCC78800BD9090 /* XCTest.framework */; };
 		EE88DEF618BCC78800BD9090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDB18BCC78800BD9090 /* Foundation.framework */; };
@@ -23,7 +20,6 @@
 		EE88DF6018BCC8EC00BD9090 /* CWTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF5F18BCC8EC00BD9090 /* CWTestViewController.m */; };
 		EE88DF6218BCC90000BD9090 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DF6118BCC90000BD9090 /* SpriteKit.framework */; };
 		EE88DF6418BCCA1900BD9090 /* sprite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE88DF6318BCCA1900BD9090 /* sprite@2x.png */; };
-		EE88DF7518BCCA7C00BD9090 /* libChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DF7418BCCA7C00BD9090 /* libChipmunk-iPhone.a */; };
 		EE88DF8D18BCCEA900BD9090 /* CMSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF8418BCCEA900BD9090 /* CMSpace.m */; };
 		EE88DF8E18BCCEA900BD9090 /* CMBody.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF8618BCCEA900BD9090 /* CMBody.m */; };
 		EE88DF8F18BCCEA900BD9090 /* CMBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DF8818BCCEA900BD9090 /* CMBaseObject.m */; };
@@ -47,6 +43,10 @@
 		EE88DFC318BCCED300BD9090 /* CMShapeQueryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFBF18BCCED300BD9090 /* CMShapeQueryInfo.m */; };
 		EE88DFC418BCCED300BD9090 /* CMNearestPointQueryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFC118BCCED300BD9090 /* CMNearestPointQueryInfo.m */; };
 		EE88DFC718BCCEE900BD9090 /* CMWrapper+SpriteKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFC618BCCEE900BD9090 /* CMWrapper+SpriteKit.m */; };
+		EE88DFEB18BCD40200BD9090 /* CWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFEA18BCD40200BD9090 /* CWAppDelegate.m */; };
+		EE88DFF118BCD42F00BD9090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88DFF018BCD42F00BD9090 /* main.m */; };
+		EE88DFF418BCD43D00BD9090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE88DFF318BCD43D00BD9090 /* InfoPlist.strings */; };
+		EE88DFF618BCD47900BD9090 /* libChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DFF518BCD47900BD9090 /* libChipmunk-iPhone.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,12 +64,6 @@
 		EE88DEDB18BCC78800BD9090 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE88DEDD18BCC78800BD9090 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EE88DEDF18BCC78800BD9090 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		EE88DEE318BCC78800BD9090 /* ChipmunkWrapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChipmunkWrapper-Info.plist"; sourceTree = "<group>"; };
-		EE88DEE518BCC78800BD9090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EE88DEE718BCC78800BD9090 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE88DEE918BCC78800BD9090 /* ChipmunkWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChipmunkWrapper-Prefix.pch"; sourceTree = "<group>"; };
-		EE88DEEA18BCC78800BD9090 /* CWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWAppDelegate.h; sourceTree = "<group>"; };
-		EE88DEEB18BCC78800BD9090 /* CWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWAppDelegate.m; sourceTree = "<group>"; };
 		EE88DEED18BCC78800BD9090 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE88DEF318BCC78800BD9090 /* ChipmunkWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipmunkWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE88DEF418BCC78800BD9090 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -96,7 +90,6 @@
 		EE88DF7118BCCA7C00BD9090 /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
 		EE88DF7218BCCA7C00BD9090 /* cpSpatialIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpatialIndex.h; sourceTree = "<group>"; };
 		EE88DF7318BCCA7C00BD9090 /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
-		EE88DF7418BCCA7C00BD9090 /* libChipmunk-iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libChipmunk-iPhone.a"; sourceTree = "<group>"; };
 		EE88DF7718BCCA8B00BD9090 /* cpConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpConstraint.h; sourceTree = "<group>"; };
 		EE88DF7818BCCA8B00BD9090 /* cpDampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedRotarySpring.h; sourceTree = "<group>"; };
 		EE88DF7918BCCA8B00BD9090 /* cpDampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedSpring.h; sourceTree = "<group>"; };
@@ -156,6 +149,13 @@
 		EE88DFC518BCCEE900BD9090 /* CMWrapper+SpriteKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMWrapper+SpriteKit.h"; sourceTree = "<group>"; };
 		EE88DFC618BCCEE900BD9090 /* CMWrapper+SpriteKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMWrapper+SpriteKit.m"; sourceTree = "<group>"; };
 		EE88DFC818BCCEF300BD9090 /* CMWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMWrapper.h; sourceTree = "<group>"; };
+		EE88DFE718BCD3DD00BD9090 /* ChipmunkWrapper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChipmunkWrapper-Info.plist"; sourceTree = "<group>"; };
+		EE88DFE918BCD40200BD9090 /* CWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAppDelegate.h; sourceTree = "<group>"; };
+		EE88DFEA18BCD40200BD9090 /* CWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAppDelegate.m; sourceTree = "<group>"; };
+		EE88DFF018BCD42F00BD9090 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE88DFF218BCD43300BD9090 /* ChipmunkWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChipmunkWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		EE88DFF318BCD43D00BD9090 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		EE88DFF518BCD47900BD9090 /* libChipmunk-iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libChipmunk-iPhone.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +167,7 @@
 				EE88DEDE18BCC78800BD9090 /* CoreGraphics.framework in Frameworks */,
 				EE88DEE018BCC78800BD9090 /* UIKit.framework in Frameworks */,
 				EE88DEDC18BCC78800BD9090 /* Foundation.framework in Frameworks */,
-				EE88DF7518BCCA7C00BD9090 /* libChipmunk-iPhone.a in Frameworks */,
+				EE88DFF618BCD47900BD9090 /* libChipmunk-iPhone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +222,9 @@
 			children = (
 				EE88DF6518BCCA2100BD9090 /* Demo */,
 				EE88DF0A18BCC7C000BD9090 /* lib */,
-				EE88DEEA18BCC78800BD9090 /* CWAppDelegate.h */,
-				EE88DEEB18BCC78800BD9090 /* CWAppDelegate.m */,
 				EE88DEED18BCC78800BD9090 /* Images.xcassets */,
+				EE88DFE918BCD40200BD9090 /* CWAppDelegate.h */,
+				EE88DFEA18BCD40200BD9090 /* CWAppDelegate.m */,
 				EE88DEE218BCC78800BD9090 /* Supporting Files */,
 			);
 			path = ChipmunkWrapper;
@@ -233,10 +233,10 @@
 		EE88DEE218BCC78800BD9090 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE88DEE318BCC78800BD9090 /* ChipmunkWrapper-Info.plist */,
-				EE88DEE418BCC78800BD9090 /* InfoPlist.strings */,
-				EE88DEE718BCC78800BD9090 /* main.m */,
-				EE88DEE918BCC78800BD9090 /* ChipmunkWrapper-Prefix.pch */,
+				EE88DFE718BCD3DD00BD9090 /* ChipmunkWrapper-Info.plist */,
+				EE88DFF318BCD43D00BD9090 /* InfoPlist.strings */,
+				EE88DFF018BCD42F00BD9090 /* main.m */,
+				EE88DFF218BCD43300BD9090 /* ChipmunkWrapper-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -390,7 +390,7 @@
 				EE88DF7118BCCA7C00BD9090 /* cpSpace.h */,
 				EE88DF7218BCCA7C00BD9090 /* cpSpatialIndex.h */,
 				EE88DF7318BCCA7C00BD9090 /* cpVect.h */,
-				EE88DF7418BCCA7C00BD9090 /* libChipmunk-iPhone.a */,
+				EE88DFF518BCD47900BD9090 /* libChipmunk-iPhone.a */,
 			);
 			name = Chipmunk;
 			sourceTree = "<group>";
@@ -490,7 +490,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE88DEE618BCC78800BD9090 /* InfoPlist.strings in Resources */,
+				EE88DFF418BCD43D00BD9090 /* InfoPlist.strings in Resources */,
 				EE88DEEE18BCC78800BD9090 /* Images.xcassets in Resources */,
 				EE88DF6418BCCA1900BD9090 /* sprite@2x.png in Resources */,
 			);
@@ -522,12 +522,12 @@
 				EE88DFB618BCCECC00BD9090 /* CMGrooveJoint.m in Sources */,
 				EE88DFC718BCCEE900BD9090 /* CMWrapper+SpriteKit.m in Sources */,
 				EE88DF8D18BCCEA900BD9090 /* CMSpace.m in Sources */,
-				EE88DEEC18BCC78800BD9090 /* CWAppDelegate.m in Sources */,
-				EE88DEE818BCC78800BD9090 /* main.m in Sources */,
 				EE88DFB418BCCECC00BD9090 /* CMSlideJoint.m in Sources */,
 				EE88DFBA18BCCECC00BD9090 /* CMDampedRotarySpring.m in Sources */,
 				EE88DFB518BCCECC00BD9090 /* CMGearJoint.m in Sources */,
+				EE88DFEB18BCD40200BD9090 /* CWAppDelegate.m in Sources */,
 				EE88DFB218BCCECC00BD9090 /* CMPinJoint.m in Sources */,
+				EE88DFF118BCD42F00BD9090 /* main.m in Sources */,
 				EE88DFC218BCCED300BD9090 /* CMSegmentQueryInfo.m in Sources */,
 				EE88DF8E18BCCEA900BD9090 /* CMBody.m in Sources */,
 				EE88DF9918BCCEC500BD9090 /* CMCircleShape.m in Sources */,
@@ -560,14 +560,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EE88DEE418BCC78800BD9090 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE88DEE518BCC78800BD9090 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		EE88DEFD18BCC78800BD9090 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -661,7 +653,7 @@
 				INFOPLIST_FILE = "ChipmunkWrapper/ChipmunkWrapper-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/jakubknejzlik/chipmunk-wrapper",
+					"/Users/jakubknejzlik/Desktop/chipmunk-wrapper",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -678,7 +670,7 @@
 				INFOPLIST_FILE = "ChipmunkWrapper/ChipmunkWrapper-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/jakubknejzlik/chipmunk-wrapper",
+					"/Users/jakubknejzlik/Desktop/chipmunk-wrapper",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
