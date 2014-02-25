@@ -1,4 +1,4 @@
 chipmunk-wrapper
 ================
 
-Chipmunk physics wrapper for iOS 7 SpriteKit.
+Chipmunk physics wrapper for iOS 7 SpriteKit....
