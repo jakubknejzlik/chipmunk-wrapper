@@ -37,7 +37,6 @@
 		EE818B0D18BCEB9F00D1E99D /* CMBoxShape.m in Sources */ = {isa = PBXBuildFile; fileRef = EE818AF318BCEB9F00D1E99D /* CMBoxShape.m */; };
 		EE818B0E18BCEB9F00D1E99D /* CMCircleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = EE818AF518BCEB9F00D1E99D /* CMCircleShape.m */; };
 		EE818B0F18BCEB9F00D1E99D /* CMShape.m in Sources */ = {isa = PBXBuildFile; fileRef = EE818AF718BCEB9F00D1E99D /* CMShape.m */; };
-		EE818B2B18BCEBB000D1E99D /* libChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE818B2918BCEBB000D1E99D /* libChipmunk-iPhone.a */; };
 		EE88DEDC18BCC78800BD9090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDB18BCC78800BD9090 /* Foundation.framework */; };
 		EE88DEDE18BCC78800BD9090 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDD18BCC78800BD9090 /* CoreGraphics.framework */; };
 		EE88DEE018BCC78800BD9090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDF18BCC78800BD9090 /* UIKit.framework */; };
@@ -45,6 +44,7 @@
 		EE88DEF618BCC78800BD9090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDB18BCC78800BD9090 /* Foundation.framework */; };
 		EE88DEF718BCC78800BD9090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DEDF18BCC78800BD9090 /* UIKit.framework */; };
 		EE88DF6218BCC90000BD9090 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE88DF6118BCC90000BD9090 /* SpriteKit.framework */; };
+		EECD92BE18C0B08E00D154D6 /* libChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EECD92BD18C0B08E00D154D6 /* libChipmunk-iPhone.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,7 +141,6 @@
 		EE818B2618BCEBB000D1E99D /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
 		EE818B2718BCEBB000D1E99D /* cpSpatialIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpatialIndex.h; sourceTree = "<group>"; };
 		EE818B2818BCEBB000D1E99D /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
-		EE818B2918BCEBB000D1E99D /* libChipmunk-iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libChipmunk-iPhone.a"; sourceTree = "<group>"; };
 		EE818B2A18BCEBB000D1E99D /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		EE88DED818BCC78800BD9090 /* ChipmunkWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChipmunkWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE88DEDB18BCC78800BD9090 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -151,6 +150,7 @@
 		EE88DEF418BCC78800BD9090 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EE88DF5C18BCC87A00BD9090 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		EE88DF6118BCC90000BD9090 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		EECD92BD18C0B08E00D154D6 /* libChipmunk-iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libChipmunk-iPhone.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +162,7 @@
 				EE88DEDE18BCC78800BD9090 /* CoreGraphics.framework in Frameworks */,
 				EE88DEE018BCC78800BD9090 /* UIKit.framework in Frameworks */,
 				EE88DEDC18BCC78800BD9090 /* Foundation.framework in Frameworks */,
-				EE818B2B18BCEBB000D1E99D /* libChipmunk-iPhone.a in Frameworks */,
+				EECD92BE18C0B08E00D154D6 /* libChipmunk-iPhone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +327,8 @@
 				EE818B2618BCEBB000D1E99D /* cpSpace.h */,
 				EE818B2718BCEBB000D1E99D /* cpSpatialIndex.h */,
 				EE818B2818BCEBB000D1E99D /* cpVect.h */,
-				EE818B2918BCEBB000D1E99D /* libChipmunk-iPhone.a */,
 				EE818B2A18BCEBB000D1E99D /* util.h */,
+				EECD92BD18C0B08E00D154D6 /* libChipmunk-iPhone.a */,
 			);
 			path = "Chipmunk-lib";
 			sourceTree = "<group>";
