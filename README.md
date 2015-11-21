@@ -1,19 +1,7 @@
 Chipmunk-Wrapper
 ================
 
-Chipmunk physics wrapper with integration for iOS 7 SpriteKit.
+Chipmunk physics Objective-C wrapper with integration for iOS 7 SpriteKit.
 
+For swift version please checkout [ChipmunkSwiftWrapper](https://github.com/jakubknejzlik/ChipmunkSwiftWrapper)
 
-TODO
-====
-
-- full README :)
-- full support of NSCoding protocol
-- code documentation
-- cocos2d integration
-
-
-Note
-----
-
-This code is not tested yet, isn't used in production and will be very likely changed in the near future.
